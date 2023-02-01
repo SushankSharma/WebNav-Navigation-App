@@ -1,0 +1,77 @@
+html {
+  height: -webkit-fill-available;
+}
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 50vh;
+  max-width: 30vw !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.network {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+  z-index: 1;
+  color: red;
+  font-weight: bold;
+  /* background-color: rgb(245, 241, 10); */
+  /* animation: blinker 0.5s linear infinite; */
+  animation: flash 0.2s linear infinite alternate running;
+}
+
+@keyframes flash {
+  from {
+    color: red;
+  }
+  to {
+    color: rgb(32, 3, 3);
+  }
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

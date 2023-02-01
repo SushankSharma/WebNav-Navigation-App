@@ -1,0 +1,15 @@
+.gpsButton {
+  position: absolute;
+  right: 0.75%;
+  top: 79%;
+  z-index: 1;
+  /* padding: 0px 10px 5px 10px; */
+  transition: 0.5s;
+  border-radius: 5px;
+  width: 3.2%;
+  font-size: 3px;
+}
+
+.gpsButton:hover {
+  background-color: #b5adfde7;
+}

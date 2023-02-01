@@ -1,0 +1,27 @@
+
+.cover-navbar {
+    background: linear-gradient(transparent, rgb(12, 0, 0) 100%), url('/public/images/XOSNavigPage.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.searchResult {
+    position: absolute;
+    top: 92px;
+    width: 40vw;
+    display: flex;
+    flex: 1;
+    z-index: 100;
+    text-transform: inherit !important;
+    border: none;
+    outline-width: 0;
+    opacity: 1;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    margin-left: 12px;
+    color: black;
+  }

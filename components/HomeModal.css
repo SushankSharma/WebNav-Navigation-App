@@ -1,0 +1,45 @@
+.common_btn {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  color: #ffffff !important;
+  background-color: #186806cb !important;
+}
+
+.common_btn:hover {
+  color: rgb(252, 250, 251) !important;
+  background-color: #33ca11cb !important;
+}
+
+.common_btn:focus,
+.common_btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* @media (max-width: 768px) {
+  .common_btn {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .common_btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .common_btn {
+    font-size: 24px;
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .common_btn {
+    padding: 26px 16px;
+    font-size: 18px;
+  }
+} */

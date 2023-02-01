@@ -1,0 +1,127 @@
+.map {
+  width: 100%;
+  height: 100vh;
+}
+
+.pin {
+  background: transparent;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.pin img {
+  width: 100%;
+  position: absolute;
+  margin-left: -100%;
+  margin-top: -132%;
+}
+
+.searchInput {
+  position: fixed;
+  top: 0;
+  width: 25vw;
+  display: flex;
+  flex: 1;
+  z-index: 100;
+  height: 40px;
+  font-family: Roboto;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+  border: 1px solid lightgray;
+  margin-left: 40%;
+  outline-width: 0;
+  border-radius: 2px 0 0 2px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: start;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.searchInput:focus {
+  border-color: #4d90fe;
+}
+
+.searchInput__route {
+  flex: 1;
+  display: flex;
+  z-index: 100;
+  max-width: fit-content;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+
+.searchResult {
+  position: fixed;
+  font-family: Roboto;
+  top: 41px;
+  width: 25vw;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  z-index: 100;
+  margin-left: 40%;
+  text-overflow: ellipsis;
+  text-transform: inherit !important;
+  cursor: pointer;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  cursor: pointer;
+  z-index: 100;
+  width: 60px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header__logo:hover {
+  background-color: #ff7779 !important;
+  transform: scale(1.05);
+  transition: all 0.33s ease-in-out 0s;
+}
+
+.header__bar {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: hidden;
+  margin-top: 0;
+  z-index: 20;
+  background-color: black;
+  border: 1px solid lightgray;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+}
+
+.header__icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: flex-start;
+  position: absolute;
+  background-color: rgb(234, 237, 237);
+  cursor: pointer;
+  z-index: 20;
+  gap: 25px;
+  border: 1px solid lightgray;
+  width: 50px;
+  align-items: center;
+}
+
+.header__icons:hover {
+  transform: scale(1.07);
+  transition: all 0.3s ease-out 0s;
+}

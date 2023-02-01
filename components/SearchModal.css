@@ -1,0 +1,92 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    /* margin: 10px;
+    padding: 10px 10px; */
+    margin: 6px 3px 6px 7px;
+    padding: 2px 0px 2px 4px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    color: #585858;
+    transition: 0.3s ease-out;
+}
+
+.item:hover {
+    box-shadow: 1px 4px 12px 0px rgba(68, 66, 132, 0.6);
+}
+
+.item-suggestion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4px;
+    padding: 0px 2px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    color: #585858;
+    transition: 0.3s ease-out;
+    font-size: "5px";
+}
+
+.item-travelhistory {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 3px 6px 3px;
+    padding: 2px 0px 0px 16px;
+    background-color: rgb(252, 249, 249);
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    color: #585858;
+    transition: 0.3s ease-out;
+    font-size: "3px";
+    border-color: lightgrey;
+}
+
+.item-travelhistory:hover {
+    box-shadow: 1px 6px 15px 0px rgba(68, 66, 132, 0.6);
+}
+
+.item-icon-container {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 6px 3px 6px 3px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    color: #585858;
+    transition: 0.3s ease-out;
+    justify-content: center;
+}
+
+.item-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-icon-getdirections {
+    margin: 6px 0px 6px 4px;
+}
+
+.item-icon-getdirections:hover {
+    box-shadow: 1px 2px 8px 0px rgba(68, 66, 132, 0.6);
+}
+
+.item-searchbarroutenav {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    /* margin: 10px;
+    padding: 10px 10px; */
+    margin: 6px 3px 6px 7px;
+    padding: 2px 0px 2px 4px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    color: #585858;
+    transition: 0.3s ease-out;
+}

@@ -1,0 +1,12 @@
+
+.cover-container {
+  background: linear-gradient(transparent, #000 75%), url('/public/images/XOSNavigPage.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.btn-primary,.btn-success,.btn-warning,.btn-danger{
+  color: #fff !important;
+}
