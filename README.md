@@ -3,6 +3,24 @@ Navigation App Assistance using **_React/JS_**
 
 ## Automotive Dashboard Navigation App
 
-A cross-platform desktop application built using React and Electron framework to provide effective navigation for automotives. The app was integrated with Google Maps API to meet the client's specific navigation requirements. The app runs on both Windows and x86 configurations, and a distributable app image was created using modified JSON parameters for the KANZI framework.
+## Dashboard Navigation App for Automotives
 
-The project was a collaborative effort, with the team effectively communicating and continuously learning throughout the project. The challenge of limited access to the KANZI framework was successfully overcome by using React and Electron to create a distributable app image. This resulted in the successful completion of the project and the satisfaction of the sprint requirements requested by the client.
+A cross-platform desktop application developed using React and Electron framework to fulfil client's specific navigation needs. The app integrates Google Maps API and is designed to work on both Windows and x86 configurations.
+
+## Key Features
+- Cross-platform compatibility (Windows, x86)
+- Google Maps API integration
+- Modified JSON parameters for KANZI framework compatibility
+
+## Technical Achievements
+Overcame limited access to KANZI framework by using React and Electron to create a distributable app image
+Collaborated effectively with team to complete project and satisfy sprint requirements requested by the client
+
+## Technologies Used
+- React,
+- Electron,
+- Google Maps API,
+- KANZI framework,
+- JSON parameters modification
+
+> **Note**: This description is based on information available as of 2021 and may not reflect the current state of the project.
