@@ -2,10 +2,10 @@
 
 *Navigation App Assistance using React/JS*
 
-> ## All future updates and code available at **_"dev"_** branch.
+> ## All future updates and code available at **_["dev"](https://github.com/SushankSharma/WebNav-Navigation-App/tree/dev)_** branch.
 
 ## Dashboard Navigation App 🚚🗺️
-Developed a dashboard navigation application for Automotives using React and Electron framework. The app is designed to fulfil the client's specific navigation needs, including integration with __Google Maps API__.
+Developed a dashboard navigation application for Automotives using React and Electron framework. The app is designed to fulfil the client's specific navigation needs, including integration with _Google Maps API_.
 
 ## Automotive Dashboard Navigation App
 
